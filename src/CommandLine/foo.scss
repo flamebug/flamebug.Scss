@@ -1,0 +1,31 @@
+////
+// This is a comment
+////
+
+#foo,
+bar {
+	$global-color: red;
+	width: 15em;
+	line-height: 1.625em;
+	-webkit-transistion: transform(foo 1s);
+}
+
+/*
+This is a comment
+	/* With Another Comment Nested Inside */
+*/
+
+pie,
+poo {
+	color: red;
+}
+
+nest {
+	egg, worm {
+		color: blue;
+	}
+}
+
+#a {
+	foo: pie;
+}
